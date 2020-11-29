@@ -1,3 +1,4 @@
 - 目录
     - [Maven](/maven/_sidebar.md)
+    - [SpringCloud](/spring-cloud/_sidebar.md)
     - [idea](/idea/_sidebar.md)
