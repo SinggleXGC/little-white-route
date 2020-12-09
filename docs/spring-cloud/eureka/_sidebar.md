@@ -7,3 +7,5 @@
     - [Eureka Actuator配置](/spring-cloud/eureka/Eureka-Actuator配置/README.md)
     - [服务发现Discovery](/spring-cloud/eureka/服务发现Discovery/README.md)
     - [Eureka自我保护模式](/spring-cloud/eureka/Eureka自我保护模式/README.md)
+    - [EurekaServer配置](/spring-cloud/eureka/EurekaServer配置/README.md)
+    - [EurekaClient配置](/spring-cloud/eureka/EurekaClient配置/README.md)
