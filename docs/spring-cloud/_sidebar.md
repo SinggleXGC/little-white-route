@@ -2,3 +2,4 @@
 - 微服务
 
     - [eureka](/spring-cloud/eureka/_sidebar.md)
+    - [zookeeper](/spring-cloud/zookeeper/_sidebar.md)
