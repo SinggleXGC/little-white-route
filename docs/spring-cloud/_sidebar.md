@@ -4,3 +4,4 @@
     - [eureka](/spring-cloud/eureka/_sidebar.md)
     - [zookeeper](/spring-cloud/zookeeper/_sidebar.md)
     - [consul](/spring-cloud/consul/_sidebar.md)
+    - [Ribbon](/spring-cloud/ribbon/_sidebar.md)
