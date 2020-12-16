@@ -2,3 +2,4 @@
 - OpenFeign
 
     - [OpenFeign简介](/spring-cloud/OpenFeign/OpenFeign简介/README.md)
+    - [OpenFeign的使用](/spring-cloud/OpenFeign/OpenFeign的使用/README.md)
