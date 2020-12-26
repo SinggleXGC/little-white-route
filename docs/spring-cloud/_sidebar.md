@@ -7,3 +7,4 @@
     - [Ribbon](/spring-cloud/ribbon/_sidebar.md)
     - [OpenFeign](/spring-cloud/OpenFeign/_sidebar.md)
     - [Hystrix](/spring-cloud/Hystrix/_sidebar.md)
+    - [Gateway](/spring-cloud/Gateway/_sidebar.md)
