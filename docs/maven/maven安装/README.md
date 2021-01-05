@@ -36,4 +36,28 @@
    OS name: "linux", version: "3.10.0-862.14.4.el7.x86_64", arch: "amd64", family: "unix"
    ```
 
-   
+
+
+
+## 切换源
+
+修改conf/settings.xml文件。在mirrors元素中增加下面内容
+
+```xml
+<!--下面是配置内容-->
+<mirror>
+    <id>alimaven</id>
+    <mirrorOf>central</mirrorOf>
+    <name>aliyun maven</name>
+    <url>http://maven.aliyun.com/nexus/content/repositories/central/</url>
+</mirror>
+<mirror>
+    <id>repo2</id>
+    <name>Mirror from Maven Repo2</name>
+    <url>http://repo2.maven.org/maven2/</url>
+    <mirrorOf>central</mirrorOf>
+</mirror>
+```
+
+
+
