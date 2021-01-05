@@ -3,6 +3,7 @@
     - [Maven](/maven/_sidebar.md)
     - [SpringBoot](/springboot/_sidebar.md)
     - [SpringCloud](/spring-cloud/_sidebar.md)
+    - [datax](/datax/_sidebar.md)
     - [datax-web](/datax-web/_sidebar.md)
     - [mqtt](/mqtt/_sidebar.md)
     - [git](/git/_sidebar.md)
