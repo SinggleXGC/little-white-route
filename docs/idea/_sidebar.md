@@ -2,3 +2,4 @@
 - **idea**
 
     - [IDEA SpringBoot热部署](/idea/IDEA-SpringBoot热部署/README.md)
+    - [idea快捷键](/idea/idea快捷键/README.md)
