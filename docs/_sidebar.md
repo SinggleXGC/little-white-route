@@ -9,6 +9,7 @@
     - [mqtt](/mqtt/_sidebar.md)
     - [git](/git/_sidebar.md)
     - [idea](/idea/_sidebar.md)
+    - [Linux](/Linux/_sidebar.md)
     
 - **前端**
     - [node](/node/_sidebar.md)
