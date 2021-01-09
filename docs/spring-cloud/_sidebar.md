@@ -8,3 +8,4 @@
     - [OpenFeign](/spring-cloud/OpenFeign/_sidebar.md)
     - [Hystrix](/spring-cloud/Hystrix/_sidebar.md)
     - [Gateway](/spring-cloud/Gateway/_sidebar.md)
+    - [config](/spring-cloud/config/_sidebar.md)
