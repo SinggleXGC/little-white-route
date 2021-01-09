@@ -1,6 +1,10 @@
 # Linux安装JDK
 
 1. 去官网下载JDK压缩包
+   
+   ```bash
+   wget https://repo.huaweicloud.com/java/jdk/8u172-b11/jdk-8u172-linux-x64.tar.gz
+   ```
 
 2. 解压JDK压缩包
 
