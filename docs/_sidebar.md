@@ -6,7 +6,7 @@
     - [mysql](/mysql/_sidebar.md)
     - [datax](/datax/_sidebar.md)
     - [datax-web](/datax-web/_sidebar.md)
-    - [mqtt](/mqtt/_sidebar.md)
+    - [mq](/mq/_sidebar.md)
     - [git](/git/_sidebar.md)
     - [idea](/idea/_sidebar.md)
     - [Linux](/Linux/_sidebar.md)
