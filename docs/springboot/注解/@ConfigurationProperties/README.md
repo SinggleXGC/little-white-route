@@ -80,6 +80,29 @@ public class SwaggerProperties {
 
 
 
+## 使用 Spring Boot Configuration Processor 完成自动补全
+
+为框架增加依赖
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-configuration-processor</artifactId>
+</dependency>
+```
+
+
+
+重新 build 项目之后，configuration processor 会为我们创建一个 JSON 文件。这样，当我们在 application.properties 和 application.yml 中写配置的时候会有自动提醒。
+
+![](./img/2019-07-24-15-23-19.png)
+
+
+
+
+
+
+
 ## 参考资料
 
 [@ConfigurationProperties 注解使用姿势，这一篇就够了](https://www.cnblogs.com/FraserYu/p/11261916.html)
