@@ -11,3 +11,4 @@
     - [config](/spring-cloud/config/_sidebar.md)
     - [bus](/spring-cloud/bus/_sidebar.md)
     - [stream](/spring-cloud/stream/_sidebar.md)
+    - [sleuth](/spring-cloud/sleuth/_sidebar.md)
