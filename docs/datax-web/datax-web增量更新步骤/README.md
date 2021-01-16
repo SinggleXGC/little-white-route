@@ -128,6 +128,7 @@ datax-web没有为我们提供直接指定任务执行顺序的功能，但是�
 
 
 修改后的json配置文件如下：
+**这里要注意的是写插件的writeMode为replace，这样在备份库存在相同记录的时候会采用更新记录的策略**
 
 ```json
 {
@@ -165,6 +166,7 @@ datax-web没有为我们提供直接指定任务执行顺序的功能，但是�
         "writer": {
           "name": "mysqlwriter",
           "parameter": {
+            "writeMode": "replace",
             "username": "***********",
             "password": "***********",
             "column": [
