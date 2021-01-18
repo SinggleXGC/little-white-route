@@ -8,7 +8,7 @@
 
    ```bash
    #mysql数据文件目录
-   mkdir /data/mysql
+   mkdir -p /data/mysql
    ```
 
 3. 创建mysql用户组和mysql用户
