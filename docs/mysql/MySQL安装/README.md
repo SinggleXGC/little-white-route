@@ -21,14 +21,14 @@
 4. 将**解压后的mysql**和**数据存放目录**的文件所有权修改为mysql用户组和mysql用户
 
    ```bash
-   chown -R mysql:mysql /opt/mysql
+   chown -R mysql:mysql /usr/local/mysql
    chown -R mysql:mysql /data/mysql
    ```
 
 5. 更改mysql安装文件夹权限
 
    ```bash
-   chmod -R 755 /opt/mysql
+   chmod -R 755 /usr/local/mysql
    ```
 
 6. 安装libaio依赖
@@ -40,8 +40,8 @@
 7. 初始化mysql命令
 
    ```bash
-   cd /opt/mysql/bin
-   ./mysqld --user=mysql --basedir=/opt/mysql --datadir=/data/mysql --initialize
+   cd /usr/local/mysql/bin
+   ./mysqld --user=mysql --basedir=/usr/local/mysql --datadir=/data/mysql --initialize
    ```
 
    在执行上面时特别要注意一行内容：
@@ -59,7 +59,7 @@
 8. 启动mysql服务
 
    ```bash
-   sh /opt/mysql/support-files/mysql.server start
+   sh /usr/local/mysql/support-files/mysql.server start
    ```
 
    上面启动mysql服务命令是会报错的，因为没有修改mysql的配置文件，报错内容大致如下：
@@ -73,7 +73,7 @@
 9. 编辑配置文件my.cnf，添加配置如下
 
    ```cnf
-   [root@localhost bin]#  vi /etc/my.cnf
+   [root@localhost bin]#  vim /etc/my.cnf
    
    [mysqld]
    datadir=/data/mysql
@@ -93,14 +93,14 @@
 10. 测试启动mysql服务器
 
     ```bash
-    [root@localhost /]# /opt/mysql/support-files/mysql.server start
+    [root@localhost /]# /usr/local/mysql/support-files/mysql.server start
     ```
 
 11. 添加软连接，并重新启动mysql服务
 
     ```bash
-    ln -s /opt/mysql/support-files/mysql.server /etc/init.d/mysql
-    ln -s /opt/mysql/bin/mysql /usr/bin/mysql
+    ln -s /usr/local/mysql/support-files/mysql.server /etc/init.d/mysql
+    ln -s /usr/local/mysql/bin/mysql /usr/bin/mysql
     service mysql restart
     ```
 
