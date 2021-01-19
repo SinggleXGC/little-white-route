@@ -6,3 +6,4 @@
     - [索引优化分析](/mysql/mysql优化/索引优化分析/README.md)
     - [查询截取分析](/mysql/mysql优化/查询截取分析/README.md)
     - [数据库锁](/mysql/mysql优化/数据库锁/README.md)
+    - [主从复制](/mysql/mysql优化/主从复制/README.md)
