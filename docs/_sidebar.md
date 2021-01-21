@@ -10,6 +10,7 @@
     - [git](/git/_sidebar.md)
     - [idea](/idea/_sidebar.md)
     - [Linux](/Linux/_sidebar.md)
+    - [面试题](/面试题/_sidebar.md)
     
 - **前端**
     - [node](/node/_sidebar.md)
