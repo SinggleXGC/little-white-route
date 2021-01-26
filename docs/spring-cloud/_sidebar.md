@@ -12,3 +12,5 @@
     - [bus](/spring-cloud/bus/_sidebar.md)
     - [stream](/spring-cloud/stream/_sidebar.md)
     - [sleuth](/spring-cloud/sleuth/_sidebar.md)
+    - [nacos](/spring-cloud/nacos/_sidebar.md)
+    - [sentinel](/spring-cloud/sentinel/_sidebar.md)
