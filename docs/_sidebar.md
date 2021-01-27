@@ -4,6 +4,7 @@
     - [SpringBoot](/springboot/_sidebar.md)
     - [SpringCloud](/spring-cloud/_sidebar.md)
     - [mysql](/mysql/_sidebar.md)
+    - [Netty](/netty/_sidebar.md)
     - [datax](/datax/_sidebar.md)
     - [datax-web](/datax-web/_sidebar.md)
     - [mq](/mq/_sidebar.md)
