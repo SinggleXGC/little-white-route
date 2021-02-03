@@ -28,6 +28,8 @@ public int write(ByteBuffer src) //从缓冲区读取数据写入到通道
 //从目标通道中复制数据到当前通道
 public long transferFrom(ReadableByteChannel src, long position, long count)
 //把数据从当前通道复制给目标通道
+//在linux下一个transferTo方法就可以完成传输
+//在windows下一次传输transferTo只能传输8m，就需要分段传输文件，而且要注意传输时的位置
 public long transferTo(long position, long count, WritableByteChannel target)
 ```
 
